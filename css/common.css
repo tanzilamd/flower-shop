@@ -27,6 +27,7 @@ p {
     font-size: 20px;
     font-weight: 700;
     border: 0;
+    cursor: pointer;
 }
 .section-title {
     color: #272727;

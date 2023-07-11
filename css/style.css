@@ -121,4 +121,65 @@ header {
 .insta-img img {
     width: 100%;
 }
+
+/* Subscription section */
+.subscription-section {
+    background-image: url("../images/Rectangle9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscription {
+    text-align: center;
+    padding: 100px 0;
+}
+.subscription h3 {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.subscription p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+.subscription-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.subscription-form input[type="email"] {
+    border-radius: 8px;
+    background: #FFF;
+    min-width: 600px;
+    border: 0;
+    font-size: 18px;
+    padding : 18px 20px; 
+    outline: white;
+}
 /* Main end */
+
+/* Footer start */
+footer {
+    background: #111010;
+    margin-top: 100px;
+}
+.footer-container {
+    text-align: center;
+    padding: 80px 0;
+}
+.footer-container h3 {
+    color: #E55473;
+    font-size: 45px;
+}
+.footer-container .section-description {
+    color: rgba(255, 255, 255, 0.90);
+}
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
+/* Footer end */
