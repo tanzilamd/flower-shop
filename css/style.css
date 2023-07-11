@@ -57,4 +57,55 @@ header {
 }
 
 
+/* Facilities section */
+.facilities-section {
+
+}
+.facilities-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 70px 50px;
+}
+.facilities-item img {
+    width: 70px;
+    margin-bottom: 15px;
+
+}
+.facilities-item p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Hot deal section */
+.hot-deal-section {
+    background: rgba(229, 84, 115, 0.05);
+    margin: 120px 0;
+}
+.hot-deal {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+.hot-deal-left {
+    width: 50%;
+    text-align: center;
+}
+.hot-deal-left h2 {
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.hot-deal-left p {
+    margin-bottom: 30px;
+}
+.hot-deal-right {
+    width: 50%;
+    text-align: center;
+}
 /* Main end */
