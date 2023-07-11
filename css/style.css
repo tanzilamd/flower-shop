@@ -122,6 +122,57 @@ header {
     width: 100%;
 }
 
+/* Contact */
+.contact-section {
+    margin-bottom: 100px;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.contact-left {
+    width: 40%;
+    /* text-align: center; */
+}
+.contact-left label {
+    display: block;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+.contact-left input {
+    display: block;
+    margin-top: 8px;
+    width: 100%;
+    font-size: 15px;
+    padding : 18px 20px; 
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    outline: none;
+}
+.contact-left textarea {
+    display: block;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin-top: 8px;
+    width: 100%;
+    outline: none;
+    padding : 18px 20px; 
+    resize: vertical;
+    font-size: 15px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.contact-right {
+    width: 50%;
+    text-align: center;
+}
+.contact-right img {
+    width: 450px;
+    /* width: 80%; */
+}
 /* Subscription section */
 .subscription-section {
     background-image: url("../images/Rectangle9.png");
