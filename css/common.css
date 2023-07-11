@@ -1,0 +1,49 @@
+/* Common styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.btn-primary {
+    padding: 15px 32px;
+    border-radius: 5px;
+    background-color: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+}
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.section-description {
+    width: 55%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+.bg-blue {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.bg-green {
+    background-color: rgba(71, 125, 17, 0.15);
+}

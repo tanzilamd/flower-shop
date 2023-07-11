@@ -1,33 +1,3 @@
-/* Common styles */
-* {
-    margin: 0;
-    padding: 0;
-}
-body {
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Work Sans', sans-serif;
-}
-.container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-p {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-}
-.btn-primary {
-    padding: 15px 32px;
-    border-radius: 5px;
-    background-color: #E55473;
-    color: #FFF;
-    font-size: 20px;
-    font-weight: 700;
-    border: 0;
-}
 /* Header start */
 header {
     background-image: url("../images/pngwing10.png");
@@ -50,3 +20,41 @@ header {
 }
 
 /* Header end */
+
+/* Main start */
+
+/* Featured Flower section */
+.featured-flower {
+    padding: 100px 0;
+}
+.featured-flower-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.featured-flower-img {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    min-height: 400px;
+    padding: 0 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+.featured-flower-img img {
+    width: 250px;
+
+}
+.img-caption {
+    color: #272727;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 15px;
+}
+
+
+/* Main end */
