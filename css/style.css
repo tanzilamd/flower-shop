@@ -108,4 +108,17 @@ header {
     width: 50%;
     text-align: center;
 }
+
+/* Instagram */
+.instagram-section {
+    margin-bottom: 100px;
+}
+.instagram-container {
+    display: flex;
+    gap: 20px;
+
+}
+.insta-img img {
+    width: 100%;
+}
 /* Main end */
